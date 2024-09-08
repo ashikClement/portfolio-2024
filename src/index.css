@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skills{
+    display: block;
+    animation: spin_words 8s infinite;
+}
+
+@keyframes spin_words{
+    16%{
+        transform: translateY(-105%);
+    }
+    33%{
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(-205%);
+    }
+    66%{
+        transform: translateY(-200%);
+    }
+    83%{
+        transform: translateY(-305%);
+    }
+    100%{
+        transform: translateY(-300%);
+    }
+}
+
+.logos {
+    animation: 30s slide infinite linear;
+}
+
+/* For smaller screens */
+.logos img {
+    width: 50px;
+    margin-left: 50px;
+}
+
+/* For larger screens */
+@media screen and (min-width: 768px) {
+.logos img {
+    width: 100px;
+    margin-left: 100px;
+}
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.socials img {
+    width: 25px;
+    &:hover {
+        filter: invert(100%);
+    }
+}
