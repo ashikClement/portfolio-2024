@@ -14,32 +14,26 @@ const Header = () => {
             <div className="flex justify-between">
 
                 {/* Logo */}
-                <Link to="home" spy={true} smooth={true} offset={50} duration={500} className="text-xl text-emerald-500 font-bold">
+                <Link to="home" spy={true} smooth={true} duration={500} className="text-xl text-emerald-500 font-bold cursor-pointer">
                     &lt;Ashik/&gt;
                 </Link>
 
                 {/* Full menu for larger screens */}
                 <ul className="hidden md:flex justify-between gap-10 text-lg text-gray-400">
                     <li>
-                        <a 
-                            href="#home"
-                            className='hover:text-emerald-500'>
+                        <Link to="home" spy={true} smooth={true} duration={500} className='hover:text-emerald-500 cursor-pointer'>
                             About
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a 
-                            href="#work"
-                            className='hover:text-emerald-500'>
+                        <Link to="work" spy={true} smooth={true} duration={500} className='hover:text-emerald-500 cursor-pointer'>
                             Work
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a
-                            href="#contact"
-                            className='hover:text-emerald-500'>
+                        <Link to="contact" spy={true} smooth={true} duration={500} className='hover:text-emerald-500 cursor-pointer'>
                             Contact
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <a
