@@ -10,42 +10,42 @@ const Work = () => {
 
     const projects = [
         {
-            image: 'src/assets/dalit.jpg',
+            image: 'assets/dalit.jpg',
             heading: 'Scrollytelling website',
             caption: 'Healthcare disparities between the general population and dalits'
         },
         {
-            image: 'src/assets/greta.jpg',
+            image: 'assets/greta.jpg',
             heading: 'GretAI',
             caption: 'AI driven educational website'
         },
         {
-            image: 'src/assets/toda.jpg',
+            image: 'assets/toda.jpg',
             heading: 'Stitch your story',
             caption: 'Mobile app that supports the embroidery culture of Toda tribe'
         },
         {
-            image: 'src/assets/icecapade.jpeg',
+            image: 'assets/icecapade.jpeg',
             heading: 'Icecapade',
             caption: 'Board game design'
         },
         {
-            image: 'src/assets/blr.png',
+            image: 'assets/blr.png',
             heading: 'Bangalore- A Human-Made Terrarium',
             caption: 'Short film about the city of Bengaluru during the 22nd century'
         },
         {
-            image: 'src/assets/restaurant.jpg',
+            image: 'assets/restaurant.jpg',
             heading: 'Japanese restaurant',
             caption: '3D Modelling on Maya'
         },
         {
-            image: 'src/assets/kamala.png',
+            image: 'assets/kamala.png',
             heading: 'Kamala Sohonie',
             caption: 'An animation about the first Indian woman to receive a PhD in a scientific discipline'
         },
         {
-            image: 'src/assets/tiger.png',
+            image: 'assets/tiger.png',
             heading: 'Tiger',
             caption: 'Anamorphic art using newspapers'
         }
