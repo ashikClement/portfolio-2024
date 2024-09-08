@@ -13,10 +13,10 @@ const Contact = () => {
                     <div>
                         <p className='font-bold'>SOCIALS</p>
                         <div className='socials flex gap-6'>
-                            <a href='https://www.instagram.com/ashik_clement' target='_blank'><img src='src/assets/instagram.svg'></img></a> 
-                            <a href='https://www.linkedin.com/in/ashik-arul-clement-4383412a0' target='_blank'><img src='src/assets/linkedin.svg'></img></a> 
-                            <a href='https://www.behance.net/ashikclement' target='_blank'><img src='src/assets/behance.svg'></img></a> 
-                            <a href='https://github.com/ashikClement' target='_blank'><img src='src/assets/github.svg'></img></a> 
+                            <a href='https://www.instagram.com/ashik_clement' target='_blank'><img src='assets/instagram.svg'></img></a> 
+                            <a href='https://www.linkedin.com/in/ashik-arul-clement-4383412a0' target='_blank'><img src='assets/linkedin.svg'></img></a> 
+                            <a href='https://www.behance.net/ashikclement' target='_blank'><img src='assets/behance.svg'></img></a> 
+                            <a href='https://github.com/ashikClement' target='_blank'><img src='assets/github.svg'></img></a> 
                         </div>
                     </div>
                     <div>

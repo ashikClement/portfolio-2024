@@ -7,7 +7,7 @@ const About = () => {
 
                 {/* Image on top for smaller screens */}
                 <img
-                    src="src/assets/profile.jpeg"
+                    src="assets/profile.jpeg"
                     alt="Ashik"
                     className="object-cover rounded-full w-full md:hidden mb-10"
                 />
@@ -27,7 +27,7 @@ const About = () => {
 
             {/* Image on right for larger screens */}
             <img
-                src="src/assets/profile.jpeg"
+                src="assets/profile.jpeg"
                 alt="Ashik"
                 className="object-cover rounded-full w-1/3 hidden md:block"
             />
