@@ -84,32 +84,32 @@ const Header = () => {
             <div className={`md:hidden absolute top-0 left-0 w-full h-auto bg-zinc-950 overflow-hidden text-left transition-[max-height] duration-500 ease-in-out ${isOpen ? 'max-h-auto' : 'max-h-0'}`}>
                 <ul className="flex-col text-lg text-gray-400 divide-y divide-gray-400">
                     <li className="p-4">
-                        <a
-                            href="#home"
-                            className='hover:text-emerald-500'
+                        <Link
+                            to="home" spy={true} smooth={true} duration={500}
+                            className='hover:text-emerald-500 cursor-pointer'
                             //close menu
                             onClick={toggleMenu}
                         >
                             About
-                        </a>
+                        </Link>
                     </li>
                     <li className="p-4">
-                        <a
-                            href="#work"
-                            className='hover:text-emerald-500'
+                        <Link
+                            to="work" spy={true} smooth={true} duration={500}
+                            className='hover:text-emerald-500 cursor-pointer'
                             onClick={toggleMenu}
                         >
                             Work
-                        </a>
+                        </Link>
                     </li>
                     <li className="p-4">
-                        <a
-                            href="#contact"
-                            className='hover:text-emerald-500'
+                        <Link
+                            to="contact" spy={true} smooth={true} duration={500}
+                            className='hover:text-emerald-500 cursor-pointer'
                             onClick={toggleMenu}
                         >
                             Contact
-                        </a>
+                        </Link>
                     </li>
                     <li className="p-4">
                         <a
