@@ -48,7 +48,7 @@ const Work = () => {
             image: 'assets/tiger.png',
             heading: 'Tiger',
             caption: 'Anamorphic art using newspapers'
-        }
+        },
     ];
 
     return (

@@ -28,31 +28,102 @@
     }
 }
 
-.logos {
-    animation: 30s slide infinite linear;
+.wrapper {
+    width: 90%;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(255,255,255,0),
+        rgba(255,255,255,1) 20%,
+        rgba(255,255,255,1) 80%,
+        rgba(255,255,255,0)
+    );
 }
 
-/* For smaller screens */
-.logos img {
-    width: 50px;
-    margin-left: 50px;
-}
-
-/* For larger screens */
-@media screen and (min-width: 768px) {
-.logos img {
-    width: 100px;
-    margin-left: 100px;
-}
-}
-
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
+@keyframes scrollLeft {
     to {
-        transform: translateX(-100%);
+        left: -100px;
     }
+}
+
+.wrapper img {
+    width: 100px;
+    position: absolute;
+    left: max(calc(100px * 28), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        height: 50px;
+    }
+
+    .wrapper img {
+        width: 50px;
+        left: max(calc(100px * 14), 100%);
+    }
+}
+
+.image1 {
+    animation-delay: calc(30s / 14 * (14 - 1) * -1);
+}
+
+.image2 {
+    animation-delay: calc(30s / 14 * (14 - 2) * -1);
+}
+
+.image3 {
+    animation-delay: calc(30s / 14 * (14 - 3) * -1);
+}
+
+.image4 {
+    animation-delay: calc(30s / 14 * (14 - 4) * -1);
+}
+
+.image5 {
+    animation-delay: calc(30s / 14 * (14 - 5) * -1);
+}
+
+.image6 {
+    animation-delay: calc(30s / 14 * (14 - 6) * -1);
+}
+
+.image7 {
+    animation-delay: calc(30s / 14 * (14 - 7) * -1);
+}
+
+.image8 {
+    animation-delay: calc(30s / 14 * (14 - 8) * -1);
+}
+
+.image9 {
+    animation-delay: calc(30s / 14 * (14 - 9) * -1);
+}
+
+.image10 {
+    animation-delay: calc(30s / 14 * (14 - 10) * -1);
+}
+
+.image11 {
+    animation-delay: calc(30s / 14 * (14 - 11) * -1);
+}
+
+.image12 {
+    animation-delay: calc(30s / 14 * (14 - 12) * -1);
+}
+
+.image13 {
+    animation-delay: calc(30s / 14 * (14 - 13) * -1);
+}
+
+.image14 {
+    animation-delay: calc(30s / 14 * (14 - 14) * -1);
 }
 
 .socials img {

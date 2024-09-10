@@ -2,40 +2,22 @@ import React from 'react';
 
 const Logos = () => {
     return (
-            <div className='overflow-hidden pt-14 md:pt-32 lg:pt-28 xl:pt-24'>
-                <div className='logos flex'> 
-                    <img src='assets/html.svg'></img> 
-                    <img src='assets/css.svg'></img> 
-                    <img src='assets/js.svg'></img> 
-                    <img src='assets/react.svg'></img>  
-                    <img src='assets/vite.svg'></img>  
-                    <img src='assets/tailwind.svg'></img>  
-                    <img src='assets/figma.svg'></img>  
-                    <img src='assets/maya.svg'></img>
-                    <img src='assets/after-effects.svg'></img> 
-                    <img src='assets/illustrator.svg'></img> 
-                    <img src='assets/animate.svg'></img>
-                    <img src='assets/premiere.svg'></img> 
-                    <img src='assets/photoshop.svg'></img>   
-                    <img src='assets/krita.svg'></img>
-                     
-                    {/* Repeated for seamless animation */}
-                    <img src='assets/html.svg'></img> 
-                    <img src='assets/css.svg'></img> 
-                    <img src='assets/js.svg'></img> 
-                    <img src='assets/react.svg'></img>  
-                    <img src='assets/vite.svg'></img>  
-                    <img src='assets/tailwind.svg'></img>  
-                    <img src='assets/figma.svg'></img>  
-                    <img src='assets/maya.svg'></img>
-                    <img src='assets/after-effects.svg'></img> 
-                    <img src='assets/illustrator.svg'></img> 
-                    <img src='assets/animate.svg'></img>
-                    <img src='assets/premiere.svg'></img> 
-                    <img src='assets/photoshop.svg'></img>   
-                    <img src='assets/krita.svg'></img>
-                </div>
-            </div>
+      <div className='wrapper mt-14 md:mt-32 lg:mt-28 xl:mt-24'>
+        <img className='image1' src='assets/html.svg'></img> 
+        <img className='image2' src='assets/css.svg'></img> 
+        <img className='image3' src='assets/js.svg'></img> 
+        <img className='image4' src='assets/react.svg'></img>  
+        <img className='image5' src='assets/vite.svg'></img>  
+        <img className='image6' src='assets/tailwind.svg'></img>  
+        <img className='image7' src='assets/figma.svg'></img>  
+        <img className='image8' src='assets/maya.svg'></img>
+        <img className='image9' src='assets/after-effects.svg'></img> 
+        <img className='image10' src='assets/illustrator.svg'></img> 
+        <img className='image11' src='assets/animate.svg'></img>
+        <img className='image12' src='assets/premiere.svg'></img> 
+        <img className='image13' src='assets/photoshop.svg'></img>   
+        <img className='image14' src='assets/krita.svg'></img>
+      </div>
     );
 };
 
