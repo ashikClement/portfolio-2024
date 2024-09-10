@@ -52,15 +52,15 @@ const Work = () => {
     ];
 
     return (
-        <section id="work" className='h-auto py-20 md:py-40'>
+        <section id="work" className='h-auto py-20 md:py-40 px-6 md:px-8 lg:px-12 xl:px-40'>
 
-            <div className='flex justify-between px-6 text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-emerald-500 font-bold'>                 
+            <div className='flex justify-between text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-emerald-500 font-bold'>                 
                 <h1>PROJECTS</h1>                 
                 <h1 className='hidden md:block'>{activeProject + 1 < 10 ? '0' : ''}{activeProject + 1}</h1>
             </div>
 
             {/* Project gallery for larger screens */}
-            <div className='w-full px-6 hidden md:block'> 
+            <div className='w-full hidden md:block'> 
                 <div className='h-96 flex flex-nowrap'>
                     {projects.map((project, index) => (
                         <Proj_md
@@ -80,7 +80,7 @@ const Work = () => {
             </div>
 
             {/* Project gallery for smaller screens */}
-            <div className='w-full flex-col flex-nowrap px-6 md:hidden'>
+            <div className='w-full flex-col flex-nowrap md:hidden'>
                 {projects.map((project, index) => (
                     <Proj_sm
                         key={index}

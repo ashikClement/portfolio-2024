@@ -2,7 +2,7 @@ import React from 'react';
 
 const Logos = () => {
     return (
-      <div className='wrapper mt-14 md:mt-32 lg:mt-28 xl:mt-24'>
+      <div className='wrapper mt-14 md:mt-32 lg:mt-28 xl:mt-0'>
         <img className='image1' src='assets/html.svg'></img> 
         <img className='image2' src='assets/css.svg'></img> 
         <img className='image3' src='assets/js.svg'></img> 

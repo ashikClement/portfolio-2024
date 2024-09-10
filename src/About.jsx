@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section className='h-auto flex justify-center items-center p-6 md:p-8 lg:p-12 xl:p-16 gap-10 '>
+        <section className='h-auto flex justify-between items-center p-6 md:p-8 lg:p-12 xl:p-40 xl:pt-20 gap-10'>
             <div className="md:w-[40rem]">
 
                 {/* Image on top for smaller screens */}
@@ -29,7 +29,7 @@ const About = () => {
             <img
                 src="assets/profile.jpeg"
                 alt="Ashik"
-                className="object-cover rounded-full w-1/3 hidden md:block"
+                className="object-cover rounded-full w-80 lg:w-96 xl:w-[400px] hidden md:block"
             />
         </section>
     );
