@@ -12,42 +12,50 @@ const Work = () => {
         {
             image: 'assets/dalit.jpg',
             heading: 'Scrollytelling website',
-            caption: 'Healthcare disparities between the general population and dalits'
+            caption: 'Healthcare disparities between the general population and dalits',
+            link: 'https://ashikclement.github.io/ashikClementDalits.github.io/dalits.html'
         },
         {
             image: 'assets/greta.jpg',
             heading: 'GretAI',
-            caption: 'AI driven educational website'
+            caption: 'AI driven educational website',
+            link: ''
         },
         {
             image: 'assets/toda.jpg',
             heading: 'Stitch your story',
-            caption: 'Mobile app that supports the embroidery culture of Toda tribe'
+            caption: 'Mobile app that supports the embroidery culture of Toda tribe',
+            link: ''
         },
         {
             image: 'assets/icecapade.jpeg',
             heading: 'Icecapade',
-            caption: 'Board game design'
+            caption: 'Board game design',
+            link: ''
         },
         {
             image: 'assets/blr.png',
             heading: 'Bangalore- A Human-Made Terrarium',
-            caption: 'Short film about the city of Bengaluru during the 22nd century'
+            caption: 'Short film about the city of Bengaluru during the 22nd century',
+            link: ''
         },
         {
             image: 'assets/restaurant.jpg',
             heading: 'Japanese restaurant',
-            caption: '3D Modelling on Maya'
+            caption: '3D Modelling on Maya',
+            link: ''
         },
         {
             image: 'assets/kamala.png',
             heading: 'Kamala Sohonie',
-            caption: 'An animation about the first Indian woman to receive a PhD in a scientific discipline'
+            caption: 'An animation about the first Indian woman to receive a PhD in a scientific discipline',
+            link: ''
         },
         {
             image: 'assets/tiger.png',
             heading: 'Tiger',
-            caption: 'Anamorphic art using newspapers'
+            caption: 'Anamorphic art using newspapers',
+            link: ''
         },
     ];
 

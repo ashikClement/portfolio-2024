@@ -25,7 +25,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <p className='py-6'>Website by Ashik</p>
+                    <p className='py-6 md:py-10'>Website by Ashik</p>
                 </div>
             </div>
 
